@@ -1,0 +1,24 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter checkpoints and cache
+.ipynb_checkpoints/
+__pycache__/
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore data files
+Resources/
+*.csv
+
+# Ignore Jupyter notebook metadata autosaves
+*.nbconvert.ipynb
+
+# Optional: Ignore output files
+*.xlsx
+*.pdf
+*.png
+*.log
